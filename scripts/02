@@ -1,0 +1,6 @@
+#!/bin/bash
+passwd -l $1
+pgrep -u $1
+killall -KILL -u $1
+crontab -r -u $1
+userdel -r $1

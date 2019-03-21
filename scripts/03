@@ -1,0 +1,2 @@
+#!/bin/bash
+useradd -m -p $2 $1 -u $3

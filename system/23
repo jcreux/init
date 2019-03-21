@@ -1,0 +1,2 @@
+En session graphique : saisir le login/password au lancement de la VM.
+En session ssh : saisir la commande 'ssh user@ip'.
